@@ -1,0 +1,36 @@
+.caption-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .caption-content button {
+    margin-top: 10px; /* Adjust margin as needed */
+  }
+  
+
+.carousel{
+    position: relative;
+}
+button{
+
+    width:157px;
+    height:58px;
+    border:1px solid;
+    border-radius: 75px;
+    color:grey;
+    font-size: 20px;
+    background: rgb(50, 210, 48);
+    cursor: grab;
+}
+ button:active{
+    background-color: rgb(21, 225, 140);
+}
+.caption-content-2{
+  margin-right: 900px;
+  margin-bottom:200px;
+}
+
+
+  
