@@ -15,11 +15,11 @@
 }
 button{
 
-    width:157px;
-    height:58px;
+    width:150px;
+    height:38px;
     border:1px solid;
     border-radius: 75px;
-    color:grey;
+    color:rgb(7, 28, 2);
     font-size: 20px;
     background: rgb(50, 210, 48);
     cursor: grab;
@@ -27,10 +27,7 @@ button{
  button:active{
     background-color: rgb(21, 225, 140);
 }
-.caption-content-2{
-  margin-right: 900px;
-  margin-bottom:200px;
-}
+
 
 
   

@@ -1,33 +1,34 @@
 import React from 'react';
 import './Hero.css';
 
+import Products from '../Products/Products';
+
+
 function Hero() {
   return (
     <div className='main'>
-      <center>
+      <div style={{ textAlign: 'center' }}>
         <div className='main_wrapper'>
-          <div className='main_container'>
-            <p className='main_animatedText'>
-              Carefully Curated Eco-Friendly <span>Products</span>
+          <div className='main_container' style={{
+            display: 'inline-block',
+            backgroundColor: '#f0f0f0', // Example background color
+            padding: '20px',
+            borderRadius: '10px',
+            maxWidth: '80%', // Adjust maximum width as needed
+            margin: '0 auto' // Center the container horizontally
+          }}>
+            <p className='main_animatedText' style={{
+              fontSize: '20px', // Adjust font size as needed
+              margin: '0' // Remove default margins
+            }}>
+              Carefully Curated Eco-Friendly <span style={{ fontWeight: 'bold' }}>Products</span>
             </p>
           </div>
         </div>
-      </center>
-      <div className='main_content'>
-        <div className='main_cards'>
-          <div className="row justify-content-center mb-3"> 
-            <div className="col-sm-4 mb-3"> 
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY-xTni_0geSKqihkXr0ZJvTyu1MgclHZmPQ&s' alt='' className="image-gap img-fluid" /> {/* Add img-fluid for responsive images */}
-            </div>
-            <div className="col-sm-4 mb-3">
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMrRMRDUf7FhPSrn6tCbNLyK3ASqumCSVgnA&s' alt='' className="image-gap img-fluid" />
-            </div>
-            <div className="col-sm-4 mb-3">
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd1fWVUcg4aLWJv49-wLLHKznKU06Xz-bR7w&s' alt='' className="image-gap img-fluid" />
-            </div>
-          </div>
-        </div>
       </div>
+     
+     <Products/>
+  
     </div>
   );
 }

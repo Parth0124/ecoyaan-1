@@ -1,6 +1,6 @@
 import React from 'react';
 import './Team.css'; // Import CSS for styling
-import './Team.css'
+
 function Team() {
   return (
     

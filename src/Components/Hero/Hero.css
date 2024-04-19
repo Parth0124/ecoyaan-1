@@ -1,9 +1,9 @@
-.main{
+.main {
     background-color: whitesmoke;
 }
+
 .main_container {
     display: inline-block;
-
 }
 
 .main_animatedText {
@@ -18,12 +18,11 @@
 .main_animatedText span {
     color: green;
 }
-.image-gap {
-    margin-right: 20px;
-border-radius: 10px;
-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  }
-  
+
+
+
+
+
 @keyframes typing {
     from {
         width: 0;
@@ -48,3 +47,4 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
         font-size: 1.5rem;
     }
 }
+

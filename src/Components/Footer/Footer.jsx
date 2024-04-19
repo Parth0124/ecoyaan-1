@@ -9,7 +9,7 @@ const Footer = () => {
       <div className='footerin1'>
         <div className='f1'>
           <h2 style={{ color: 'rgb(60, 166, 60)' }}>Ecoyaan</h2>
-          <h4>Registered Address:</h4>
+          <h4 style={{color:'blue'}}>Registered Address:</h4>
           <p>Registered Address:</p>
           <p>1-N-12T-781/1</p>
           <p>Sri Krishna Vilasa, Urvastores,</p>
