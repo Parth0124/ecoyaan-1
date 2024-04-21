@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div className="heading-container">
       <h6 className="responsive-heading">
-        Carefully Curated Eco-Friendly Products{' '}
+        Carefully Curated Eco-Friendly 
         <span className="last-word">Products</span>
       </h6>
       <Products/>
