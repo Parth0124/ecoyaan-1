@@ -8,7 +8,7 @@ function Slider() {
       <Carousel>
         <Carousel.Item>
           <img
-         style={{ width: '100%', height: '50vh' }}
+            style={{ width: '100%', height: '90vh' }}
             className="d-block w-100"
             src="https://arbordayblog.org/wp-content/uploads/2018/11/tree-planting-kid-hands-iStock-672734322-1080x608.jpg"
             alt="First slide"
@@ -16,16 +16,16 @@ function Slider() {
           <Carousel.Caption>
             <div className="caption-content">
               <h5 style={{marginTop:'28px'}}>Plant a tree today</h5>
-              <p style={{}}> Trees provide us with oxygen and fresh air and planting them will ensure we have fresh air to breathe in the future.</p>
+              <p style={{}}>Trees provide us with oxygen and fresh air and planting them will ensure we have fresh air to breathe in the future.</p>
               <a href="/about">
-      <button>About Us</button>
-    </a>
+                <button>About Us</button>
+              </a>
             </div>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-style={{ width: '100%', height: '50vh' }}
+            style={{ width: '100%', height: '90vh' }}
             className="d-block w-100"
             src="https://th.bing.com/th/id/OIP.T0XkCi5q14AVctVV18yUcQHaEN?rs=1&pid=ImgDetMain "
             alt="Second slide"
@@ -39,7 +39,12 @@ style={{ width: '100%', height: '50vh' }}
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img style={{ width: '100%', height: '50vh' }} className="d-block w-100" src="https://ecoyaan.com/images/carousel-2.png" alt="Third slide" />
+          <img
+            style={{ width: '100%', height: '90vh' }}
+            className="d-block w-100"
+            src="https://ecoyaan.com/images/carousel-2.png"
+            alt="Third slide"
+          />
           <Carousel.Caption>
             <div className="caption-content-2">
               <h1 style={{color:'black',marginRight:'110px'}}>Follow us on Instagram</h1>
@@ -48,7 +53,6 @@ style={{ width: '100%', height: '50vh' }}
             </div>
           </Carousel.Caption>
         </Carousel.Item>
-        
       </Carousel>
     </div>
   );
