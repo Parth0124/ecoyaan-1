@@ -5,7 +5,7 @@ const Container = () => {
     return (
         <div className='footer1'>
             <div className='left'>
-                <img src='https://ecoyaan.com/images/Impact.png' alt='veges' />
+                <img src='https://ecoyaan.com/images/OurStory4.png' alt='veges'style={{ maxWidth: '100%', height: 'auto' }} />
             </div>
             <div className='right'>
                 <h1>Join our community in creating a more sustainable future for everyone</h1>

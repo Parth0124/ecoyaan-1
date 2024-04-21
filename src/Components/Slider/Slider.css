@@ -30,4 +30,9 @@ button{
 
 
 
-  
+@media (max-width: 767px) {
+  .carousel-item img {
+    width: 100vw;
+    height: 56.25vw; /* Maintains 16:9 aspect ratio */
+  }
+}

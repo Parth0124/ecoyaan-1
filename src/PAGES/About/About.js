@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from 'react'
+import React, { useState } from 'react'
 
 import Footer from '../../Components/Footer/Footer'
 
@@ -6,74 +6,14 @@ import Navbar from '../../Components/Navbar/Navbar'
 import './About.css'
 import Image from '../../Components/Image/Image'
 import Team from '../../Components/Team/Team'
-
+import Page from '../../Components/Page/Page'
 const About = () => {
+  
 
-    useEffect(() => {
-        window.scrollTo(0,0)
-      }, [])
-      const [showInfo, setShowInfo] = useState(false);
   return (
     <div>
-    <div className='extrapage'>
-    <Navbar reloadnavbar={false} />
-    <h2 style={{ textAlign: 'center', marginTop: '25px' }}>About Ecoyaan</h2>
-    <div style={{ position: 'relative', maxWidth: '100%' }}>
-        <img
-            src="https://ecoyaan.com/images/about-us-sustainable-lifestyle-partner.png"
-            alt="About Us"
-            style={{ width: '100%', height: 'auto' }}
-        />
-
-        {showInfo && (
-            <div
-                style={{
-                    position: 'relative',
-                    top: '50%',
-                    left: '50%',
-                    transform: 'translate(-50%, -50%)',
-                    textAlign: 'center',
-                    backgroundColor: 'rgba(0, 0, 0, 0.7)',
-                    color: '#fff',
-                    padding: '20px',
-                    borderRadius: '5px',
-                }}
-            >
-                <p>
-                    At Ecoyaan, we are more than just a platform. Our goal is to build a community of eco-conscious people who share a common vision and passion for a more sustainable world.
-                </p>
-                <p>We recognize that sustainability is a journey (as the Sanskrit word “yaan” suggests). To keep you motivated on this journey, on our platform and our social media pages, you can find:</p>
-                <ul>
-                    <li>Tips and tricks to adopt a more eco-friendly and low-waste lifestyle</li>
-                    <li>Videos, posts, and quizzes on climate change and sustainability</li>
-                    <li>Events and pledges that invite you to adopt a more sustainable lifestyle</li>
-                </ul>
-               
-                
-            </div>
-        )}
-
-        <button
-            style={{
-                position: 'absolute',
-                bottom: '20px',
-                left: '50%',
-                transform: 'translateX(-50%)',
-                backgroundColor: 'rgb(60, 166, 60)',
-                color: showInfo ? '#000' : 'black',
-                border: 'none',
-                padding: '10px 20px',
-                borderRadius: '5px',
-                cursor: 'pointer',
-                transition: 'color 0.3s ease',
-                
-            }}
-            onClick={() => setShowInfo(!showInfo)}
-        >
-            {showInfo ? 'Close' : 'Read More'}
-        </button>
-    </div>
-</div>
+      <Navbar/>
+    <Page/>
 
       <div className='values'>
         <h2 style={{textAlign:'center',marginTop:'25px'}}>Our Values</h2>
@@ -84,8 +24,16 @@ const About = () => {
         <h2 style={{textAlign:'center',marginTop:'25px'}}> Our Story</h2>
         <section>
     <div  className="left">
-      <img style={{height:'350px',}} src="https://ecoyaan.com/images/about-us-founding-team-01.png" alt="Founder Image" />
-      <img style={{height:'350px'}} src='https://ecoyaan.com/images/about-us-founding-team-02.png' alt="Founder Image" />
+    <img
+        style={{ height: '350px' }}
+        src="https://ecoyaan.com/images/about-us-founding-team-01.png"
+        alt="Founder Image"
+      />
+      <img
+        style={{ height: '350px' }}
+        src='https://ecoyaan.com/images/about-us-founding-team-02.png'
+        alt="Founder Image"
+      />
     </div>
     <div className="right">
       <p style={{marginLeft:'20px'}}>
