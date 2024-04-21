@@ -55,3 +55,15 @@ h1{
   margin-top: 25px;
   
 }
+@media (max-width: 767px) {
+  .responsive-image {
+    width: 100vw;
+    height: 56.25vw; /* Maintains 16:9 aspect ratio */
+  }
+}
+@media (max-width: 767px) {
+  img {
+    height: 329px;
+    width: auto;
+  }
+}
