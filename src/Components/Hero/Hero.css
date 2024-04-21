@@ -1,12 +1,50 @@
-.heading-container {
-    text-align: center;
-  }
-  
-  .responsive-heading {
-    font-size: 2rem; /* Default font size */
-  }
-  
-  .last-word {
-    color: #33cc33; /* Green color for the last word */
-  }
-  
+.main {
+    background-color: whitesmoke;
+}
+
+.main_container {
+    display: inline-block;
+}
+
+.main_animatedText {
+    font-size: 3rem;
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(27), cursor 0.4s step-end infinite alternate;
+    margin-top: 10px;
+}
+
+.main_animatedText span {
+    color: green;
+}
+
+
+
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent;
+    }
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .main_animatedText {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .main_animatedText {
+        font-size: 1.5rem;
+    }
+}
+
