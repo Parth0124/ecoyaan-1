@@ -7,7 +7,8 @@
 }
 
 .left img {
-    max-width: 100%;
+    max-width: 50%;
+    max-height: 900px;
 }
 
 .right {
@@ -27,3 +28,9 @@
         max-width: 60%; /* Adjust the width as needed */
     }
 }
+@media (max-width: 767px) {
+    .left img {
+      width: 100vw;
+      height: 56.25vw; /* Maintains 16:9 aspect ratio */
+    }
+  }
